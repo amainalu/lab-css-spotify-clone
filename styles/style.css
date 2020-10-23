@@ -1,8 +1,50 @@
-/*
-Colors:
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    color:1A1A1A
+    background-color:#00B172
+    Colors:
+    Text: 
+    Green: 
+    White: #FFF
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+.topnav{
+    display: flex;
+  justify-content: space-between;
+  float: right;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
 
-*/
+.topnav a{
+    display:flex;
+    list-style: none;
+    text-align: center;
+    float:right;
+    text-decoration: none;
+    justify-content: space-between;
+    color:black;
+    
+
+}
+.central-image img{
+  background-position: auto;
+  background-image: none;
+  display:block;
+  margin: 0 auto;
+  padding-top:5mm;
+  }
+.logo img{
+    width: 10%;
+    height:10%;
+    Display:block;
+    margin: auto;
+    float:left;
+}
+
